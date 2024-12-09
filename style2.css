@@ -1,0 +1,21 @@
+body {
+    background: rgb(0, 0, 0);
+}
+
+p {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.5;
+    white-space: pre-line;
+
+    text-shadow: 0 0 5px #c8c8c8, 0 0 10px #cbcbcb, 0 0 15px #e1e1e1, 0 0 20px #d9d9d9, 0 0 30px #cbcbcb, 0 0 40px #d5d5d5;
+    margin: 0;
+    animation: float 3s ease-in-out infinite;
+
+}

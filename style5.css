@@ -1,0 +1,22 @@
+img {
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 36%;
+    transform: translate(-50%,
+-50%);
+    }
+
+    p {
+        color: brown;
+        font-family: "Lucida Console", "Courier New", monospace;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        line-height: 1;
+        white-space: pre-line;
+        text-shadow: 0 0 5px #a1650c, 0 0 10px #c2890d, 0 0 15px #e8bf4e, 0 0 20px #bf500b, 0 0 30px #ba8442, 0 0 40px #614804;
+    }

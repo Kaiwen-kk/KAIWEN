@@ -1,0 +1,39 @@
+body {
+    background: rgb(255, 218, 52);
+}
+
+
+audio {
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    
+
+    width: 300px;
+    height: 100px;
+    color: yellow;
+    }
+
+p {
+        color: white;
+        font-family: "Lucida Console", "Courier New", monospace;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 100px;
+        line-height: 1.5;
+        white-space: pre-line;
+        text-shadow: 0 0 5px #ffff00, 0 0 10px #ffd900, 0 0 15px #fff305, 0 0 20px #fff239, 0 0 30px #ffff17, 0 0 40px #ffe11b;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,
+-50%);
+        }

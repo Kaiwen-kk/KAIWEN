@@ -1,0 +1,12 @@
+p {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    line-height: 1;
+    white-space: pre-line;
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000;
+}

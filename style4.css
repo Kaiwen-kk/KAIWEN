@@ -1,0 +1,23 @@
+p {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px;
+    line-height: 1;
+    white-space: pre-line;
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000;
+}
+
+img {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 90%;
+    left: 96%;
+    transform: translate(-50%,
+-50%);
+    }
