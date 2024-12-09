@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <p>TABLE LAMP</p>
+
+    <audio src="page1.mp3" autoplay loop></audio>
+   
+    <a href="page2.html">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <img src="lamp.gif" alt="lamp" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="lamp2.gif" alt="lamp2" style="width:100%">
+  </div>
+</div>
+
+</a>
+
+<script>
+    let zIndexCounter = 1; 
+
+    document.addEventListener('mousemove', (e) => {
+      const cursor = document.createElement('div'); 
+      cursor.style.position = 'absolute';
+      cursor.style.top = `${e.pageY - 125}px`; 
+      cursor.style.left = `${e.pageX - 125}px`;
+      cursor.style.backgroundColor = 'white'; 
+      cursor.style.width = '120px';
+      cursor.style.height = '120px';
+      cursor.style.borderRadius = '50%'; 
+      cursor.style.pointerEvents = 'none'; 
+      cursor.style.filter = 'blur(20px)'; 
+      cursor.style.zIndex = zIndexCounter++; 
+      cursor.style.boxShadow = '0 0 30px orange';
+
+      document.body.appendChild(cursor); 
+
+      
+      setTimeout(() => {
+        cursor.remove();
+      }, 500); 
+    });
+
+  </script>
+
+
+</body>
+</html>
