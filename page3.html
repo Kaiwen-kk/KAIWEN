@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    
+    <body>
+        <audio src="page3.mp3" autoplay loop></audio>
+
+        <audio controls>
+            <source src="ost.mp3" type="audio/mp3">
+        </audio>
+
+        <p>PIKACHU</p>
+
+
+        <a href="page4.html">
+        
+        <img src="pikachu.png">
+ 
+        </a>
+
+
+    <style>
+    
+
+    body {
+              background-image: url('pikachu.gif');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+
+    </style>
+
+
+    <Script>
+      
+      let zIndexCounter = 1; 
+
+document.addEventListener('mousemove', (e) => {
+  const cursor = document.createElement('div'); 
+  cursor.style.position = 'absolute';
+  cursor.style.top = `${e.pageY - 8}px`; 
+  cursor.style.left = `${e.pageX - 8}px`;
+  cursor.style.backgroundColor = 'yellow'; 
+  cursor.style.width = '20px';
+  cursor.style.height = '20px';
+  cursor.style.borderRadius = '50%'; 
+  cursor.style.pointerEvents = 'none'; 
+  cursor.style.zIndex = zIndexCounter++; 
+  cursor.style.boxShadow = '0 0 30px orange';
+  document.body.appendChild(cursor); 
+
+  
+  setTimeout(() => {
+    cursor.remove();
+  }, 500); 
+});
+    </Script>
+
+    </body>
+
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+        <head>
+        <link rel="stylesheet" href="style2.css">
+        </head>
+        
+        <a href="page3.html">
+        <body>
+
+        
+            <p>LIGHTENING</p>
+
+            <audio src="page2.mp3" autoplay loop></audio>
+
+        
+            <style>
+                    body {
+                      background-image: url('lightening.gif');
+                      background-repeat: no-repeat;
+                      background-attachment: fixed;
+                      background-size: cover;
+                    }
+            </style>
+
+<script>
+let zIndexCounter = 1; 
+
+document.addEventListener('mousemove', (e) => {
+  const cursor = document.createElement('div'); 
+  cursor.style.position = 'absolute';
+  cursor.style.top = `${e.pageY - 125}px`; 
+  cursor.style.left = `${e.pageX - 125}px`;
+  cursor.style.backgroundColor = 'white'; 
+  cursor.style.width = '120px';
+  cursor.style.height = '120px';
+  cursor.style.borderRadius = '50%'; 
+  cursor.style.pointerEvents = 'none'; 
+  cursor.style.filter = 'blur(20px)'; 
+  cursor.style.zIndex = zIndexCounter++; 
+  cursor.style.boxShadow = '0 0 30px grey';
+
+  document.body.appendChild(cursor); 
+
+  
+  setTimeout(() => {
+    cursor.remove();
+  }, 500); 
+});
+</script>
+
+        </body>
+    </a>
+</html>
